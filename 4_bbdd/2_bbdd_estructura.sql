@@ -39,7 +39,7 @@ CREATE TABLE USUARIOS (
 CREATE TABLE CREDENCIALES (
   codigo_cred VARCHAR(10) NOT NULL,
   foto_cred BLOB NOT NULL,
-  identificacion_cred INT NOT NULL,
+  identificacion_cred INT(30) NOT NULL,
   fecha_ingreso_cred DATE NOT NULL,
   pass_cred VARCHAR(150) NOT NULL,
   estado_cred TINYINT NOT NULL,

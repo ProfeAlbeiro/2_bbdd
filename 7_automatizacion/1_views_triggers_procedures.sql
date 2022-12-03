@@ -687,7 +687,7 @@ CREATE PROCEDURE pa_registrar_admin(
 	IN p_apellidos_user VARCHAR(50),
 	IN p_correo_user VARCHAR(50),
     IN p_foto_cred BLOB,
-    IN p_identificacion_cred INT(11),
+    IN p_identificacion_cred INT(30),
     IN p_fecha_ingreso_cred DATE,
     IN p_pass_cred VARCHAR(150),
     IN p_estado_cred TINYINT
